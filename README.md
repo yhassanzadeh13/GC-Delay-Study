@@ -14,6 +14,7 @@ Using the RemoteAccessTool, any one of the nodes in the SkipGraph can be accesse
 
 ### Logging
 The RemoteAccessTool will output a .CSV file that contains all the logs collected from the pinging attempts. The output file looks something like this:
+
 |Pinger| 21 | | | | |
 |--|--|--|--|--|--|
 | Pinged | Avg Ping | StdDev | Individual Results |  |
