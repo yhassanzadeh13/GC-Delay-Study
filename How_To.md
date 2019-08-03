@@ -1,0 +1,4 @@
+## Replication
+The first step to replicating this experiment is to set up a network of nodes. The nodes can all be set up on a single machine or can be spread on multiple machines (e.g. on Google Cloud Compute Engine) . For how to run the nodes in order to get started, refer to the [Mass_Deployment branch](https://github.com/yhassanzadeh13/LightChain-Java/tree/Mass_Deployment/SkipGraphNode) of the LightChain repository. 
+
+After the nodes are setup. Use the [RemoteAccessTool](https://github.com/yhassanzadeh13/LightChain-Java/blob/Mass_Deployment/SkipGraphNode/docs/RemoteAccessTool.md) to connect to any of the deployed nodes. After you are connected, you can use the tool to initiate testing. The tool will handle everything and after the testing is done a CSV file will be outputed which contains all the collected logs. 
