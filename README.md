@@ -33,8 +33,8 @@ After setting up a network of 32 nodes, ping log collection was carried out. The
  - Histogram of all the recorded RTT delays between a single pair of nodes.
 
 After the histograms were created, different distributions were fitted to see which ones resemble the histogram the best. A normal distribution appeared to be the closest fit for both types of histograms. As for the histogram of the average RTT delay between every pair of nodes, the fitting normal distribution had the following parameters:
-- μ = 161.135
-- σ = 97.073
+- μ = 161.135 ms
+- σ = 97.073 ms
 
 As for the other type of histogram, the parameters are exactly as in the logs.
 
