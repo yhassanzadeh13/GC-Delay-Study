@@ -1,5 +1,6 @@
 # Logs
-In this folder are the histograms that were created from the data. All the data has been taken from the "Test 3 - 4k Messages" with 32 nodes.
+In this folder are the histograms that were created from the data. 
+## Logs from the test carried out using RMI calls. The data has been taken from the "Test 3 - 4k Messages" with 32 nodes.
 ### Figure 1
 Figure 1 is the histogram of the average RTT delay between every pair of nodes. A normal distribution has be fitted to the histogram.
 
@@ -11,3 +12,10 @@ Figure 3 is the histogram of all the individual RTT delays logged between one pa
 
 ### Figure 4
 Figure 4 is the CDF of all the recorded RTT delays between one pair of nodes, with normal, poisson, and exponential distributions fit onto it. 
+
+## Logs from the test carried out using ICMP echo Request messages.
+### Figure 5
+Figure 5 is the histogram of the average RTT delay between every pair of nodes. A normal distribution has be fitted to the histogram.
+
+### Figure 6
+Figure 6 is the CDF of the RTT delays between every pair of nodes, with a normal distribution fitted onto it.

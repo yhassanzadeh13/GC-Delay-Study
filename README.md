@@ -10,7 +10,7 @@ Due to the variety of issues that occur when deploying nodes on the cloud, such 
 In order to collect realistic network statistics, the Google Cloud Compute Engine service was used. Instances were deployed in multiple locations distributed all over the globe. Once the instances we deployed, SkipNodes were started and initialized on the instances. The instructions to launching the nodes can be found in the documentation for mass deployment.
 
 ### Testing 
-Using the RemoteAccessTool, any one of the nodes in the SkipGraph can be accessed in order to start the testing. Once the testing starts, the tool traverses the graph in order to create a list of all the nodes in the SkipGraph. Once the list is complete, the tool makes every node in the list ping every other node X times. In order to spread the pinging attempts over a longer period, the tool allows the user to split the X pinging attempts into N equally sized chunks.
+Using the RemoteAccessTool, any one of the nodes in the SkipGraph can be accessed in order to start the testing. You can choose one of two types of pinging, either using ICMP echo requests or RMI calls. Once the testing starts, the tool traverses the graph in order to create a list of all the nodes in the SkipGraph. Once the list is complete, the tool makes every node in the list ping every other node X times. In order to spread the pinging attempts over a longer period, the tool allows the user to split the X pinging attempts into N equally sized chunks.
 
 ### Logging
 The RemoteAccessTool will output a .CSV file that contains all the logs collected from the pinging attempts. The output file looks something like this:
@@ -33,8 +33,8 @@ After setting up a network of 32 nodes, ping log collection was carried out. The
  - Histogram of all the recorded RTT delays between a single pair of nodes.
 
 After the histograms were created, different distributions were fitted to see which ones resemble the histogram the best. A normal distribution appeared to be the closest fit for both types of histograms. As for the histogram of the average RTT delay between every pair of nodes, the fitting normal distribution had the following parameters:
-- μ = 161.135 ms
-- σ = 97.073 ms
+- μ = 159.92 ms
+- σ = 95.93 ms
 
 As for the other type of histogram, the parameters are exactly as in the logs.
 
