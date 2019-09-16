@@ -1,8 +1,9 @@
+
 # Logs
 In this folder are the histograms that were created from the data. 
 ## Logs from the test carried out using RMI calls. The data has been taken from the "Test 3 - 4k Messages" with 32 nodes.
 ### Figure 1
-Figure 1 is the histogram of the average RTT delay between every pair of nodes. A normal distribution has be fitted to the histogram.
+Figure 1 is the histogram of the average RTT delay between every pair of nodes. A normal distribution has been fitted to the histogram.
 
 ### Figure 2
 Figure 2 is the CDF of the RTT delays between every pair of nodes, with a normal distribution fitted onto it.
@@ -15,7 +16,14 @@ Figure 4 is the CDF of all the recorded RTT delays between one pair of nodes, wi
 
 ## Logs from the test carried out using ICMP echo Request messages.
 ### Figure 5
-Figure 5 is the histogram of the average RTT delay between every pair of nodes. A normal distribution has be fitted to the histogram.
+Figure 5 is the histogram of the average RTT delay between every pair of nodes. A normal distribution has been fitted to the histogram.
 
 ### Figure 6
 Figure 6 is the CDF of the RTT delays between every pair of nodes, with a normal distribution fitted onto it.
+
+## Logs collected from the WonderNetwork ping logs.
+### Figure 7
+Figure 7 is the histogram of the average RTT delay between every pair of locations/cities. A normal distribution has been fitted to the histogram.
+
+### Figure 8
+Figure 8 is the CDF of the RTT delays between every pair of locations/cities, with a normal distribution fitted onto it.
